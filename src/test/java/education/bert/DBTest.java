@@ -12,7 +12,7 @@ public class DBTest {
     @Test
     public void dbConnectionTest() throws SQLException {
         Connection conn = DriverManager.getConnection(
-                "jdbc:postgresql://192.168.99.100:32768/postgres", "postgres", "");
+                "jdbc:postgresql://192.168.99.100:5432/travis_ci_test", "postgres", "");
 
         assertNotNull(conn);
     }

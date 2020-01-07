@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class JdbcExample {
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(
-//                "jdbc:postgresql://192.168.99.100:32768/postgres", "postgres", "")) {
-                "jdbc:postgresql://192.168.99.100:5432/travis_ci_test", "postgres", "")) {
+                "jdbc:postgresql://192.168.99.100:32768/postgres", "postgres", "")) {
+//                "jdbc:postgresql://192.168.99.100:5432/travis_ci_test", "postgres", "")) {
 
             if (conn != null) {
                 System.out.println("Connected to the database!");
