@@ -65,6 +65,6 @@ public class DBTest {
         assertEquals(1, actualId.get(0));
         assertEquals(2, actualId.get(1));
         assertEquals("Vasya", actualName.get(0));
-        assertEquals("petya", actualName.get(1));
+        assertEquals("Petya", actualName.get(1));
     }
 }
